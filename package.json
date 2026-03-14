@@ -3,9 +3,30 @@
     "@aws-sdk/client-s3": "^3.1008.0",
     "@aws-sdk/credential-providers": "^3.1008.0",
     "@aws-sdk/s3-request-presigner": "^3.946.0",
+    "axios": "^1.13.6",
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
-    "pg": "^8.16.3"
-  }
+    "multer": "^2.1.1",
+    "pg": "^8.20.0"
+  },
+  "name": "pixeldrop-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohanan07/PixelDrop-Backend-Source-Code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rohanan07/PixelDrop-Backend-Source-Code/issues"
+  },
+  "homepage": "https://github.com/rohanan07/PixelDrop-Backend-Source-Code#readme"
 }
