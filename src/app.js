@@ -18,7 +18,7 @@ app.use('/api', wallpaperRoutes);
 // --- Health Check Endpoint ---
 // AWS Load Balancers use this to check if the server is alive
 app.get('/', (req, res) => {
-    res.status(200).send('PixelDrop Backend is Healthy & Running Finally!');
+    res.status(200).send('PixelDrop Backend is Healthy & Running Finally Password Reset!');
 });
 
 db.query('SELECT NOW()', (err, res) => {
