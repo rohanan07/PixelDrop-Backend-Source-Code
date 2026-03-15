@@ -6,7 +6,7 @@ const { getSignedUrl } = require('@aws-sdk/s3-request-presigner');
 
 // TODO: Add this to your .env file: CLOUDFRONT_DOMAIN=https://d1234abcd.cloudfront.net
 // For now, replace the string below with your actual CloudFront Domain from the AWS Console
-const CLOUDFRONT_DOMAIN = process.env.CLOUDFRONT_DOMAIN || 'https://d18jdczu41cj3t.cloudfront.net';
+const CLOUDFRONT_DOMAIN = process.env.CLOUDFRONT_DOMAIN || 'https://d67i7v1o5jrsn.cloudfront.net';
 
 // 1. Get All Wallpapers (Optimized for CloudFront)
 exports.getAllWallpapers = async (req, res) => {
