@@ -78,4 +78,4 @@ async function autoFetchAndUpload(category, numberOfImages = 10) {
 
 // Execute the script
 // We can easily change this to "cars", "minimalist", etc.
-autoFetchAndUpload('cars', 5);
+autoFetchAndUpload('technology', 10);
